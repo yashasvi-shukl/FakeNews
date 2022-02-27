@@ -2,7 +2,7 @@
 
 Github:
 
-1. Download dataset from https://www.kaggle.com/yashasvis/fakenews 
+1. Download dataset from https://www.kaggle.com/yashasvis/fakenews </br>
 	if you need raw data then please download from url given in project documentation.
 
 2. First file is "Data_Cleaning.ipynb". 
