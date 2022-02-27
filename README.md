@@ -2,7 +2,8 @@
 
 Github:
 
-1. Download dataset from https://www.kaggle.com/yashasvis/fakenews if you need raw data then please download from url given in project documentation.
+1. Download dataset from https://www.kaggle.com/yashasvis/fakenews 
+	if you need raw data then please download from url given in project documentation.
 
 2. First file is "Data_Cleaning.ipynb". 
 	File is responsible for performing data cleaning and it will also create numeric features which we need for Model training. 
