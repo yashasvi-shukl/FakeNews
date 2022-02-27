@@ -1,7 +1,7 @@
 # FakeNews
-
-App is live on Heroku: https://fake--news--classification.herokuapp.com/
 </br>
+App is live on Heroku: https://fake--news--classification.herokuapp.com/
+</br></br>
 Steps to execute this project:</br>
 
 1. Download dataset from https://www.kaggle.com/yashasvis/fakenews </br>
