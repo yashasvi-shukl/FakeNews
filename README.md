@@ -43,14 +43,14 @@ Steps to execute this project:</br>
 2. Open Anaconda prompt or git bash in Deployment folder.
 3. Execute "Streamlit run app.py" to run local. Working fine? Great!! Lets deploy...
 4. Execute below commands: 
-		git init
-		git add .
-		git commit -m "Your Message'
+		git init </br>
+		git add .</br>
+		git commit -m "Your Message'</br>
 3. Next step is to create heroku app
-		heroku login
-		heroku create -a "AppName"
-		git remote -v
-		git push heroku master
+		heroku login </br>
+		heroku create -a "AppName" </br>
+		git remote -v </br>
+		git push heroku master </br>
 	Note: After "heroku login" you will be routed to heroku login web page. Enter your credentials and login successfully.
 	
 ## Please refer documentation for furter details.
