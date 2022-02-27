@@ -36,9 +36,11 @@ Github:
 
 </br></br>
 ## Steps to run streamlit app
-1. Open Anaconda prompt or git bash.
-2. Navigate to folder where project is stored
-3. Execute below commands:
+(prerequisite: git and heroku cli installed)
+1. Extract Deployment.zip
+2. Open Anaconda prompt or git bash in Deployment folder.
+3. Execute "Streamlit run app.py" to run local. Working fine? Great!! Lets deploy...
+4. Execute below commands: 
 		git init
 		git add .
 		git commit -m "Your Message'
