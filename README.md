@@ -42,11 +42,11 @@ Steps to execute this project:</br>
 1. Extract Deployment.zip
 2. Open Anaconda prompt or git bash in Deployment folder.
 3. Execute "Streamlit run app.py" to run local. Working fine? Great!! Lets deploy...
-4. Execute below commands: 
+4. Execute below commands:  </br>
 		git init </br>
 		git add .</br>
 		git commit -m "Your Message'</br>
-3. Next step is to create heroku app
+3. Next step is to create heroku app </br>
 		heroku login </br>
 		heroku create -a "AppName" </br>
 		git remote -v </br>
