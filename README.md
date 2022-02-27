@@ -31,7 +31,7 @@ Github:
 ===> Make sure you have below 3 files in he folder to deploy app on Heroku cloud</br>
 --> setup.sh - Modify setup.sh file and replace youremail@domain.com with your heroku email id.</br>
 --> requirements.txt - File is already present. However, better is to create your own.  New file can be created using below command.</br>
-#### 						 pipreqs ProjectFolder</br>
+ 						 pipreqs ProjectFolder</br>
 --> Procfile - This file can be left unchanged if name of app is not modified.</br>
 
 </br></br>
