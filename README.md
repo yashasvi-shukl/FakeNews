@@ -3,38 +3,38 @@
 Github:
 
 1. Download dataset from https://www.kaggle.com/yashasvis/fakenews </br>
-	if you need raw data then please download from url given in project documentation.
-
-2. First file is "Data_Cleaning.ipynb". 
-	File is responsible for performing data cleaning and it will also create numeric features which we need for Model training. 
-	After data cleaning and feature engineering all data's will get imported into training and testing datasets
-
-3. Execute "EDA.ipynb" file
-	This file contains code for Exploratory Data Analysis.
-
-4. After EDA run "ML Algorithms.ipynb" file.
-	This file is responsible for fitting and testing model on numeric features created in data cleaning phase.
-	Various Machine Learning models will be trained and tested in this file on engineered Features.
-
-5. Next step is to execute "tfidf-vectorization.ipynb" file.
-	Text data has been vectorized using TFIDF vectorizer and Machine Learning models has been trained on TFIDF vectors and combined TFIDF vector + Numeric Features.
-
-6. Execute "ML_Embedding.ipynb.ipynb".
-	Text data has been converted into count vectors using Count vectorizer and then Machine Learning models has been trained and tested on Count vectors and combined Count vectors + Numeric Features.
-
-7. After Machine Learning I have trained Deep Learning model on top of data. Next is to run "DL_algos.ipynb" file. Setup GPU environment for faster training.
-
-8. Last stage is the productionization of models. I have deployed LR model using count vector however any model can be used.
-	Execute "streamlit run ap.py" on Anaconda prompt or terminal for running app in local environment. 
+	if you need raw data then please download from url given in project documentation.</br>
 	
-	I have deployed this project on Heroku cloud. To run app on cloud follow as below.
-===> Make sure you have below 3 files in he folder to deploy app on Heroku cloud
---> setup.sh - Modify setup.sh file and replace youremail@domain.com with your heroku email id.
---> requirements.txt - File is already present. However, better is to create your own.  New file can be created using below command.
-						## pipreqs ProjectFolder
---> Procfile - This file can be left unchanged if name of app is not modified.
+2. First file is "Data_Cleaning.ipynb". </br>
+	File is responsible for performing data cleaning and it will also create numeric features which we need for Model training. </br>
+	After data cleaning and feature engineering all data's will get imported into training and testing datasets</br>
 
+3. Execute "EDA.ipynb" file.</br>
+	This file contains code for Exploratory Data Analysis.</br>
 
+4. After EDA run "ML Algorithms.ipynb" file.</br>
+	This file is responsible for fitting and testing model on numeric features created in data cleaning phase.</br>
+	Various Machine Learning models will be trained and tested in this file on engineered Features.</br>
+
+5. Next step is to execute "tfidf-vectorization.ipynb" file.</br>
+	Text data has been vectorized using TFIDF vectorizer and Machine Learning models has been trained on TFIDF vectors and combined TFIDF vector + Numeric Features.</br>
+
+6. Execute "ML_Embedding.ipynb.ipynb".</br>
+	Text data has been converted into count vectors using Count vectorizer and then Machine Learning models has been trained and tested on Count vectors and combined Count vectors + Numeric Features.</br>
+
+7. After Machine Learning I have trained Deep Learning model on top of data. Next is to run "DL_algos.ipynb" file. Setup GPU environment for faster training.</br>
+
+8. Last stage is the productionization of models. I have deployed LR model using count vector however any model can be used.</br>
+	Execute "streamlit run ap.py" on Anaconda prompt or terminal for running app in local environment. </br>
+	
+	I have deployed this project on Heroku cloud. To run app on cloud follow as below.</br>
+===> Make sure you have below 3 files in he folder to deploy app on Heroku cloud</br>
+--> setup.sh - Modify setup.sh file and replace youremail@domain.com with your heroku email id.</br>
+--> requirements.txt - File is already present. However, better is to create your own.  New file can be created using below command.</br>
+#### 						 pipreqs ProjectFolder</br>
+--> Procfile - This file can be left unchanged if name of app is not modified.</br>
+
+</br></br>
 ## Steps to run streamlit app
 1. Open Anaconda prompt or git bash.
 2. Navigate to folder where project is stored
