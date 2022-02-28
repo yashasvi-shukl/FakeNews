@@ -1,4 +1,5 @@
 # FakeNews
+</br> The aim of this project is to create a simple fake news detection system. </br>
 </br>
 App is live on Heroku: https://fake--news--classification.herokuapp.com/
 </br></br>
